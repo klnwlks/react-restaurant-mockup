@@ -1,0 +1,82 @@
+// mobile responsiveness
+@media only screen and (max-width : 600px) {
+#home {
+    .intro  {
+	height: 90vh;
+	.intro-cont {
+	    flex-direction: column;
+	}
+	.intro-anim {
+	    height: 30%;
+	    margin-top: 10%;
+	    .anim-sq {
+		height: 80% !important;
+		width: 75% !important;
+	    }
+	}
+	.intro-text {
+	    width: 90%;
+	    text-align: center;
+	    h1 {
+		font-size: 8vw;
+	    }
+	    p {
+		font-size: 5vw;
+	    }
+	}
+    }
+
+    .about {
+	flex-direction: column;
+	height: 80vh;
+
+	.about-text {
+	    width: 90%;
+	    height: 60%;
+
+	    h1 { font-size: 9vw; }
+
+	    span { font-size: 5.5vw; }
+
+	    p { font-size: 3.5vw; }
+	}
+
+	.about-img-wrapper {
+	    width: 100%;
+	    height: 40%;
+	    border: none;
+	    border-top: 2px groove #c1c1c1;
+	}
+    }
+
+    .bestseller {
+	.flex-wrap {
+	    flex-direction: column;
+	    div {
+		width: 95%;
+		margin-bottom: 5%;
+		img {
+		    max-height: 300px;
+		}
+	    }
+	}
+    }
+
+    .reservations {
+	height: 50vh;
+	flex-direction: column;
+	.img-wrapper {
+	    width: 100%;
+	    height: 30%;
+	    border: none;
+	    border-bottom: 2px groove #c1c1c1;
+	}
+	.reserve-text {
+	    width: 100%;
+	    text-align: center;
+	    h1 { font-size: 9vw; }
+	    p { margin: 0; font-size: 5vw;}
+	}
+    }
+}
+}
