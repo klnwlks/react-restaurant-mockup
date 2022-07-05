@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6, ul, li, p,
+div, a {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family: "Inter", serif;
+}
+
+::-webkit-scrollbar {
+    width: 1vw !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #6b746f;
+}
+
+@keyframes slide-up {
+    0% {
+	transform: translateY(40%);
+	opacity: 0;
+    }
+    100% {
+	transform: translateY(0px);
+	opacity: 1;
+    }
+}
+
+.slide-up-anim {
+    animation: slide-up 1000ms ease;
+    animation-fill-mode: forwards;
+    
+}
