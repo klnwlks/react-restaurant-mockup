@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import * as menuJSON from '../assets/menu.json'
 import './Menu.scss'
+import './Menu-m.scss'
 
 interface menuItem {
     "imglink": String,
@@ -55,7 +56,6 @@ export default function Menu(){
 		<div className="item-text">
 		    <h2>{current?.item}</h2>
 		    <h3>{current?.price}</h3>
-		    <h2>{current?.desc2}</h2>
 		    <p>{current?.desc}</p>
 		</div>
 	    </div>

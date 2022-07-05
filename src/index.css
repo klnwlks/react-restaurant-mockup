@@ -40,3 +40,7 @@ html, body {
     animation-fill-mode: forwards;
     
 }
+
+.highlight {
+    color: #d2d2d2;
+}
