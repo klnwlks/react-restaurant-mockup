@@ -14,7 +14,7 @@ export default function Header() {
 		<h1>/// ///</h1>
 	    </Link>
 
-	    <p> contact num </p>
+	    <p>contact</p>
 	</nav>
     </div>
     )

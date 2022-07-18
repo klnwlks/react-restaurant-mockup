@@ -49,8 +49,10 @@ function App() {
 		</div>
 
 		<div className="intro-text">
-		    <h1> /// /// </h1>
-		    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada id purus at sodales. Suspendisse potenti. Integer iaculis cursus viverra. Nunc tempor sem eleifend, ultricies turpis in, scelerisque lacus. </p>
+		    <h1> Fine Dining Refined. </h1>
+		    <p>
+		    Years of culinary craft dedicated to perfecting the delicate art of fine dining within our walls.
+		    </p>
 		</div>
 	    </div>
 	</section>
@@ -59,7 +61,7 @@ function App() {
 	    <div className="about-text">
 		<h1>What We Do</h1>
 		<p>
-		<span>Lorem ipsum dolor</span> sit amet, consectetur adipiscing elit. Proin sit amet interdum turpis, hendrerit tincidunt nunc. Morbi commodo libero eget metus sollicitudin bibendum. Phasellus aliquam tellus et nisi vestibulum venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam eu metus nisl.
+		<span>With Humble Beginnnings back to 19XX</span>, consectetur adipiscing elit. Proin sit amet interdum turpis, hendrerit tincidunt nunc. Morbi commodo libero eget metus sollicitudin bibendum. Phasellus aliquam tellus et nisi vestibulum venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam eu metus nisl.
 		</p>
 
 		<br />
