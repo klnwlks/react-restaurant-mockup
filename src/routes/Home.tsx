@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Key } from 'react'
 import * as TopSeller from '../assets/topsellers.json'
 import './Home.scss'
 import './Home-m.scss'
@@ -33,7 +33,7 @@ function App() {
 	    })
 	})
 
-	observer.observe(document.querySelector(".bestseller"))
+	observer.observe(document.querySelector(".bestseller")!)
     }, [])
 
     return (
@@ -81,7 +81,7 @@ function App() {
 	    <h1>Top Sellers</h1>
 	    <div className="flex-wrap">
 		{topSellers?.data.map((element: Item) => {
-		    return <div key={element.item}>
+		    return <div key={element.item as Key}>
 			<img src={element.imglink as string} />
 
 			<div className="text">
