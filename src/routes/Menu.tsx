@@ -1,5 +1,5 @@
 // import axios from 'axios'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Key } from 'react'
 import * as menuJSON from '../assets/menu.json'
 import './Menu.scss'
 import './Menu-m.scss'
@@ -35,7 +35,7 @@ export default function Menu(){
 	<div className="menu-grid">
 	{ menu?.data.map((element: menuItem) => {
 	    return <div className="grid-item" 
-			key={element.item} 
+			key={element.item as Key} 
 			onClick={() => setCurrent(element)}>
 		<img src={element.imglink as string} />
 
