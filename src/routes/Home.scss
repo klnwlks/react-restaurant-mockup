@@ -31,9 +31,9 @@ color: $fg;
     width: 100vw;
     height: 100vh;
     background-color: #0f0f0f;
+	background-image: url("src/assets/noise.svg");
 
     .noise-wrapper {
-	background-image: url("src/assets/noise.svg");
 	background-color: #0f0f0f;
 	width: inherit;
 	height: inherit;
